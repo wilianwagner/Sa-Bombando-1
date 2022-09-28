@@ -5,24 +5,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>document</title>
+  <!--  <link rel="stylesheet" href="Calculo_emserie_e_paralelo.css">-->
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" type="image/jpg" href="img/imgtab.JPG">
+    <title>Calculo de associação de resistores</title>
 </head>
 
-<body>
-    <h1>Calculadora de Resistores <h1>
-            <h2>
-                <p> Valor do resistor em Ω:
+<body class="text-light bg-dark">
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">S.A. Bombando</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Navegue pelo nosso site</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="Calculo_emserie_e_paralelo.html">-> Calculo de Resistência equivalente</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Tabela_de_cores.html">-> Tabela de cores para resistor</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="CalculolimitadorLED.html">-> Calculo do resistor limitador
+                                de corrente
+                            </a>
+                        </li>
+
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <h1 class="d-grid col-6 mx-auto">Calculadora de Resistores <h1>
+            <h2 class="col-12 auto mx-auto">
+                <p> Valor do resistor em Ω: <br>
                     <input type="number" id="r">
                 </p>
                 <p>
-                    <input type="button" id="paralelo" value="paralelo"></input>
-                    <input type="button" id="em serie" value="em serie"></input>
-                    <input type="button" id="prox" value="proximo"></input>
-                    <input type="button" id="voltar" value="voltar 1 resistor"></input>
-                    <input type="button" id="zerar" value="zerar valores"></input>
+                    <input type="button" class="btn btn-primary" id="prox" value="proximo"></input>
+                    <input type="button" class="btn btn-primary" id="voltar" value="voltar 1 resistor"></input>
+                    <input type="button" class="btn btn-primary" id="zerar" value="zerar valores"></input>
+                </p>
+                <p>
+                    <input type="button" class="btn btn-primary" id="paralelo" value="paralelo"></input>
+                    <input type="button" class="btn btn-primary" id="em serie" value="em serie"></input>
                 </p>
             </h2>
             <h3></h3>
-            <script src="SABombando.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+            crossorigin="anonymous"></script>
+            <script src="js/Calculo_emserie_e_paralelo.js"></script>
 
             <body>

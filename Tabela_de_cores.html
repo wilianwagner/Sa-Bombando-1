@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="img/imgtab.JPG">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<title>S.A Bombando</title>
+</head>
+
+<body class="text-light bg-dark">
+    <!--<img src="img/ex4_2.jpg" alt="Balança de peso">-->
+
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">S.A. Bombando</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Navegue pelo nosso site</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="Calculo_emserie_e_paralelo.html">-> Calculo de Resistência equivalente</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Tabela_de_cores.html">-> Tabela de cores para resistor</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="CalculolimitadorLED.html">-> Calculo do resistor limitador
+                                de corrente
+                            </a>
+                        </li>
+
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <h1 class="h1">S.A Bombando</h1>
+
+    <p>
+    <h5 class=" col-10 mx-auto">Selecione os campos e após isso clique no botão:</h5>
+    </p>
+    <h3>
+        <!--< Primeira escolha de faixa-->
+        <div class=" col-10 mx-auto">
+            <h5>PRIMEIRA FAIXA</h5>
+            <input type="radio" value="0" class="btn-check" name="options-outlined" id="preto1" autocomplete="off"
+                checked>
+            <label class="btn btn-preto font-weight-bold " for="preto1">Preto</label>
+
+            <input type="radio" value="1" class="btn-check" name="options-outlined" id="marrom1" autocomplete="off"
+                checked>
+            <label class="btn btn-marrom " for="marrom1">Marrom</label>
+
+            <input type="radio" value="2" class="btn-check" name="options-outlined" id="vermelho1" autocomplete="off"
+                checked>
+            <label class="btn btn-vermelho  " for="vermelho1">Vermelho</label>
+
+            <input type="radio" value="3" class="btn-check" name="options-outlined" id="laranja1" autocomplete="off"
+                checked>
+            <label class="btn btn-laranja " for="laranja1">Laranja</label>
+
+            <input type="radio" value="4" class="btn-check" name="options-outlined" id="amarelo1" autocomplete="off"
+                checked>
+            <label class="btn btn-amarelo " for="amarelo1">Amarelo</label>
+
+            <input type="radio" value="5" class="btn-check" name="options-outlined" id="verde1" autocomplete="off"
+                checked>
+            <label class="btn btn-verde " for="verde1">Verde</label>
+
+            <input type="radio" value="6" class="btn-check" name="options-outlined" id="azul1" autocomplete="off"
+                checked>
+            <label class="btn btn-azul " for="azul1">Azul</label>
+
+            <input type="radio" value="7" class="btn-check" name="options-outlined" id="violeta1" autocomplete="off"
+                checked>
+            <label class="btn btn-violeta " for="violeta1">Violeta</label>
+
+            <input type="radio" value="8" class="btn-check" name="options-outlined" id="cinza1" autocomplete="off"
+                checked>
+            <label class="btn btn-cinza " for="cinza1">Cinza</label>
+
+            <input type="radio" value="9" class="btn-check" name="options-outlined" id="branco1" autocomplete="off"
+                checked>
+            <label class="btn btn-branco " for="branco1">Branco</label>
+
+            <input type="radio" value="" class="btn-check" name="options-outlined" id="semcor1" autocomplete="off"
+                checked>
+            <label class="btn btn-branco " for="semcor1">Sem cor</label>
+
+
+        </div>
+        <!--< Segunda escolha de faixa-->
+        <div class=" col-10 mx-auto">
+            <h5>SEGUNDA FAIXA</h5>
+            <input type="radio" value="0" class="btn-check" name="options-outlined2" id="preto2" autocomplete="off"
+                checked>
+            <label class="btn btn-preto " for="preto2">Preto</label>
+
+            <input type="radio" value="1" class="btn-check" name="options-outlined2" id="marrom2" autocomplete="off"
+                checked>
+            <label class="btn btn-marrom " for="marrom2">Marrom</label>
+
+            <input type="radio" value="2" class="btn-check" name="options-outlined2" id="vermelho2" autocomplete="off"
+                checked>
+            <label class="btn btn-vermelho " for="vermelho2">Vermelho</label>
+
+            <input type="radio" value="3" class="btn-check" name="options-outlined2" id="laranja2" autocomplete="off"
+                checked>
+            <label class="btn btn-laranja " for="laranja2">Laranja</label>
+
+            <input type="radio" value="4" class="btn-check" name="options-outlined2" id="amarelo2" autocomplete="off"
+                checked>
+            <label class="btn btn-amarelo " for="amarelo2">Amarelo</label>
+
+            <input type="radio" value="5" class="btn-check" name="options-outlined2" id="verde2" autocomplete="off"
+                checked>
+            <label class="btn btn-verde " for="verde2">Verde</label>
+
+            <input type="radio" value="6" class="btn-check" name="options-outlined2" id="azul2" autocomplete="off"
+                checked>
+            <label class="btn btn-azul " for="azul2">Azul</label>
+
+            <input type="radio" value="7" class="btn-check" name="options-outlined2" id="violeta2" autocomplete="off"
+                checked>
+            <label class="btn btn-violeta " for="violeta2">Violeta</label>
+
+            <input type="radio" value="8" class="btn-check" name="options-outlined2" id="cinza2" autocomplete="off"
+                checked>
+            <label class="btn btn-cinza " for="cinza2">Cinza</label>
+
+            <input type="radio" value="9" class="btn-check" name="options-outlined2" id="branco2" autocomplete="off"
+                checked>
+            <label class="btn btn-branco " for="branco2">Branco</label>
+
+            <input type="radio" value="" class="btn-check" name="options-outlined2" id="semcor2" autocomplete="off"
+                checked>
+            <label class="btn btn-branco " for="semcor2">Sem cor</label>
+
+
+        </div>
+        <!--< terceira escolha de faixa-->
+        <div class=" col-10 mx-auto">
+            <h5>TERCEIRA FAIXA</h5>
+            <input type="radio" value="0" class="btn-check" name="options-outlined3" id="preto3" autocomplete="off"
+                checked>
+            <label class="btn btn-preto " for="preto3">Preto</label>
+
+            <input type="radio" value="1" class="btn-check" name="options-outlined3" id="marrom3" autocomplete="off"
+                checked>
+            <label class="btn btn-marrom " for="marrom3">Marrom</label>
+
+            <input type="radio" value="2" class="btn-check" name="options-outlined3" id="vermelho3" autocomplete="off"
+                checked>
+            <label class="btn btn-vermelho " for="vermelho3">Vermelho</label>
+
+            <input type="radio" value="3" class="btn-check" name="options-outlined3" id="laranja3" autocomplete="off"
+                checked>
+            <label class="btn btn-laranja " for="laranja3">Laranja</label>
+
+            <input type="radio" value="4" class="btn-check" name="options-outlined3" id="amarelo3" autocomplete="off"
+                checked>
+            <label class="btn btn-amarelo " for="amarelo3">Amarelo</label>
+
+            <input type="radio" value="5" class="btn-check" name="options-outlined3" id="verde3" autocomplete="off"
+                checked>
+            <label class="btn btn-verde " for="verde3">Verde</label>
+
+            <input type="radio" value="6" class="btn-check" name="options-outlined3" id="azul3" autocomplete="off"
+                checked>
+            <label class="btn btn-azul " for="azul3">Azul</label>
+
+            <input type="radio" value="7" class="btn-check" name="options-outlined3" id="violeta3" autocomplete="off"
+                checked>
+            <label class="btn btn-violeta " for="violeta3">Violeta</label>
+
+            <input type="radio" value="8" class="btn-check" name="options-outlined3" id="cinza3" autocomplete="off"
+                checked>
+            <label class="btn btn-cinza " for="cinza3">Cinza</label>
+
+            <input type="radio" value="9" class="btn-check" name="options-outlined3" id="branco3" autocomplete="off"
+                checked>
+            <label class="btn btn-branco " for="branco3">Branco</label>
+
+            <input type="radio" value="" class="btn-check" name="options-outlined3" id="semcor3" autocomplete="off"
+                checked>
+            <label class="btn btn-branco " for="semcor3">Sem cor</label>
+
+
+        </div>
+        <!--< Quarta escolha de faixa-->
+        <div class=" col-10 mx-auto">
+            <h5>MULTIPLICADOR</h5>
+            <input type="radio" value="1" class="btn-check" name="options-outlined4" id="preto4" autocomplete="off"
+                checked>
+            <label class="btn btn-preto " for="preto4">Preto</label>
+
+            <input type="radio" value="10" class="btn-check" name="options-outlined4" id="marrom4" autocomplete="off"
+                checked>
+            <label class="btn btn-marrom " for="marrom4">Marrom</label>
+
+            <input type="radio" value="100" class="btn-check" name="options-outlined4" id="vermelho4" autocomplete="off"
+                checked>
+            <label class="btn btn-vermelho " for="vermelho4">Vermelho</label>
+
+            <input type="radio" value="1000" class="btn-check" name="options-outlined4" id="laranja4" autocomplete="off"
+                checked>
+            <label class="btn btn-laranja " for="laranja4">Laranja</label>
+
+            <input type="radio" value="10000" class="btn-check" name="options-outlined4" id="amarelo4"
+                autocomplete="off" checked>
+            <label class="btn btn-amarelo " for="amarelo4">Amarelo</label>
+
+            <input type="radio" value="100000" class="btn-check" name="options-outlined4" id="verde4" autocomplete="off"
+                checked>
+            <label class="btn btn-verde " for="verde4">Verde</label>
+
+            <input type="radio" value="1000000" class="btn-check" name="options-outlined4" id="azul4" autocomplete="off"
+                checked>
+            <label class="btn btn-azul " for="azul4">Azul</label>
+
+            <input type="radio" value="10000000" class="btn-check" name="options-outlined4" id="violeta4"
+                autocomplete="off" checked>
+            <label class="btn btn-violeta " for="violeta4">Violeta</label>
+
+            <input type="radio" value="" class="btn-check" name="options-outlined4" id="cinza4" autocomplete="off"
+                checked>
+            <label class="btn btn-cinza " for="cinza4">Cinza</label>
+
+            <input type="radio" value="" class="btn-check" name="options-outlined4" id="branco4" autocomplete="off"
+                checked>
+            <label class="btn btn-branco " for="branco4">Branco</label>
+
+            <input type="radio" value="0.1" class="btn-check" name="options-outlined4" id="dourado4" autocomplete="off"
+                checked>
+            <label class="btn btn-dourado " for="dourado4">Dourado</label>
+
+            <input type="radio" value="0.01" class="btn-check" name="options-outlined4" id="prateado4"
+                autocomplete="off" checked>
+            <label class="btn btn-prateado " for="prateado4">Prateado</label>
+        </div>
+        <!--< Quarta escolha de faixa-->
+        <div class=" col-10 mx-auto">
+            <h5>TOLERÂNCIA</h5>
+            <input type="radio" value="0" class="btn-check" name="options-outlined5" id="preto5" autocomplete="off"
+                checked>
+            <label class="btn btn-preto " for="preto5">Preto</label>
+
+            <input type="radio" value="1" class="btn-check" name="options-outlined5" id="marrom5" autocomplete="off"
+                checked>
+            <label class="btn btn-marrom " for="marrom5">Marrom</label>
+
+            <input type="radio" value="2" class="btn-check" name="options-outlined5" id="vermelho5" autocomplete="off"
+                checked>
+            <label class="btn btn-vermelho " for="vermelho5">Vermelho</label>
+
+            <input type="radio" value="" class="btn-check" name="options-outlined5" id="laranja5" autocomplete="off"
+                checked>
+            <label class="btn btn-laranja " for="laranja5">Laranja</label>
+
+            <input type="radio" value="" class="btn-check" name="options-outlined5" id="amarelo5" autocomplete="off"
+                checked>
+            <label class="btn btn-amarelo " for="amarelo5">Amarelo</label>
+
+            <input type="radio" value="0.5" class="btn-check" name="options-outlined5" id="verde5" autocomplete="off"
+                checked>
+            <label class="btn btn-verde " for="verde5">Verde</label>
+
+            <input type="radio" value="0.25" class="btn-check" name="options-outlined5" id="azul5" autocomplete="off"
+                checked>
+            <label class="btn btn-azul " for="azul5">Azul</label>
+
+            <input type="radio" value="0.1" class="btn-check" name="options-outlined5" id="violeta5" autocomplete="off"
+                checked>
+            <label class="btn btn-violeta " for="violeta5">Violeta</label>
+
+            <input type="radio" value="0.05" class="btn-check" name="options-outlined5" id="cinza5" autocomplete="off"
+                checked>
+            <label class="btn btn-cinza " for="cinza5">Cinza</label>
+
+            <input type="radio" value="" class="btn-check" name="options-outlined5" id="branco5" autocomplete="off"
+                checked>
+            <label class="btn btn-branco " for="branco5">Branco</label>
+
+            <input type="radio" value="5" class="btn-check" name="options-outlined5" id="dourado5" autocomplete="off"
+                checked>
+            <label class="btn btn-dourado " for="dourado5">Dourado</label>
+
+            <input type="radio" value="10" class="btn-check" name="options-outlined5" id="prateado5" autocomplete="off"
+                checked>
+            <label class="btn btn-prateado " for="prateado5">Prateado</label>
+        </div>
+
+
+        <p></p>
+        <div class="d-grid col-6 mx-auto">
+            <button type="button" class="btn btn-primary" id="calc">Calcular</button>
+
+        </div>
+    </h3>
+    <h2>
+        <div class=" col-10 mx-auto" id="div"></div>
+    </h2>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <script src="js/ex4_2.js"></script>
+</body>
+
+</html>

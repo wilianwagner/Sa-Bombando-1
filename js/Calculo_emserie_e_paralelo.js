@@ -26,7 +26,7 @@ emserie.addEventListener("click", (e) => {
     sum += numre[i];
   };
  
-  saida.innerText = `A associação dos resistores em série é de: ${sum}Ω. ${numre}`
+  saida.innerText = `A associação dos resistores em série é de: ${sum}Ω.`
   
 })
 //Botão de calculo em paralelo, pega os valores do array e faz o calculo de 1/req = 1/r1 + 1/r2 + 1/r3..., depois soma eles e no final dividi 1 pelo valor da soma
@@ -40,7 +40,7 @@ paralelo.addEventListener("click", (e) => {
     sum += numre1[i];
   };
   let total = 1 / sum
-  saida.innerText = `A associação dos resistores em paralelo é ${total}Ω. ${numre1}`
+  saida.innerText = `A associação dos resistores em paralelo é ${total}Ω. `
 
 })
 //Botão para zerar a lista de resistores.

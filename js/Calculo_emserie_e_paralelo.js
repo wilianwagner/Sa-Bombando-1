@@ -41,7 +41,6 @@ paralelo.addEventListener("click", (e) => {
   };
   let total = 1 / sum
   saida.innerText = `A associação dos resistores em paralelo é ${total}Ω. `
-
 })
 //Botão para zerar a lista de resistores.
 zerar.addEventListener("click", (e) => {
@@ -53,3 +52,4 @@ voltar.addEventListener("click", (e) => {
   numre.pop()
   saida.innerText = `Os resistores selecionados são: ${numre}`
 })
+// teste da casa do caralho
